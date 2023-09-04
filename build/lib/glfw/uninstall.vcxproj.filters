@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\dener\OneDrive\UFV\CG\opengl\build\CMakeFiles\561fa54fedc2e269e38260619f6cd96d\uninstall.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\dener\OneDrive\UFV\CG\opengl\lib\glfw\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\dener\OneDrive\UFV\CG\opengl\build\lib\glfw\CMakeFiles\uninstall" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{717BC7DC-EDAF-3162-8D04-17BCA6319882}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
