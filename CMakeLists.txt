@@ -19,3 +19,7 @@ target_link_libraries(opengl OpenGL::GL)
 # glad
 add_subdirectory(lib/glad)
 target_link_libraries(opengl glad)
+
+# glm
+add_subdirectory(lib/glm)
+target_link_libraries(opengl glm)
