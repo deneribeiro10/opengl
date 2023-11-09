@@ -2,7 +2,7 @@ cmake_minimum_required(VERSION 3.10)
 project(opengl VERSION 1.0)
 
 # project
-add_executable(opengl src/main.c)
+add_executable(opengl src/main.cpp)
 target_include_directories(opengl PUBLIC include/)
 
 # glfw
