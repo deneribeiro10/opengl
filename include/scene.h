@@ -88,11 +88,15 @@ void scene::render() {
     GLint strength_u = glGetUniformLocation(ShaderProgram, "Strength");
     
     glEnableVertexAttribArray(position);
-    glEnableVertexAttribArray(normal); // ???
+    glEnableVertexAttribArray(normal);
 
     glUniform3fv(ambient_u, 1, glm::value_ptr(LightAmbient));
     glUniform3fv(light_color_u, 1, glm::value_ptr(LightColor));
-    glUniform3fv(light_position_u, 1, glm::value_ptr(LightPosition));
+    glUniform3fv(light_position_u, 1, glm::value_ptr(
+        glm::vec3(
+            Projection_matrix * View * glm::vec4(LightPosition, 1.0))
+        )
+    );
     glUniform1f(shininess_u, Shininess);
     glUniform1f(strength_u, Strength);
 
